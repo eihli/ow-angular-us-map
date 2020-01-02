@@ -1,6 +1,8 @@
-export interface State {
-  fill: string;
-  name: string;
+export class State {
+  constructor(
+    public name: string,
+    public fill: string
+  ) {}
 }
 
 export interface StateConfig {

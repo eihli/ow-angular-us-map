@@ -327,7 +327,7 @@
 </div>
 
 <div class="content" role="main">
-  <lib-ow-angular-us-map [stateConfig]="stateConfig"></lib-ow-angular-us-map>
+  <lib-ow-angular-us-map [stateConfig]="stateConfig" (stateClicked)="handleClick($event)"></lib-ow-angular-us-map>
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->

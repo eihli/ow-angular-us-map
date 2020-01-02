@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { StateConfig } from '../lib/state';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { State, StateConfig } from '../lib/state';
 
 
 @Component({
@@ -9,14 +9,20 @@ import { StateConfig } from '../lib/state';
 })
 export class OwAngularUsMapComponent implements OnInit {
   @Input() stateConfig: StateConfig;
+  @Output() stateClicked: EventEmitter<State> = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
     console.log(this.stateConfig)
+    this.stateClicked.subscribe(event => console.log(event));
   }
 
   handleClick(event) {
+    let stateAbbr = event.target.getAttribute("id").toLowerCase();
+    let fill = event.target.getAttribute("fill");
+    let state = new State(stateAbbr, fill)
+    this.stateClicked.emit(state);
   }
 
   onMouseEnter(event) {

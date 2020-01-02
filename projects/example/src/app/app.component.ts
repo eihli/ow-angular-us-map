@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { StateConfig } from 'ow-angular-us-map';
+import { StateConfig, State } from 'ow-angular-us-map';
 
 const stateConfig: StateConfig = {
   hi: {
@@ -221,4 +221,8 @@ const stateConfig: StateConfig = {
 export class AppComponent {
   title = 'example';
   stateConfig = stateConfig;
+
+  handleClick(state: State) {
+    console.log(state.name + " clicked");
+  }
 }
