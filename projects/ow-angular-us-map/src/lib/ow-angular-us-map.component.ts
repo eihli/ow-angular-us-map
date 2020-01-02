@@ -13,10 +13,7 @@ export class OwAngularUsMapComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    console.log(this.stateConfig)
-    this.stateClicked.subscribe(event => console.log(event));
-  }
+  ngOnInit() {}
 
   handleClick(event) {
     let stateAbbr = event.target.getAttribute("id").toLowerCase();
