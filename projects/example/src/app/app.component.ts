@@ -5,315 +5,211 @@ import { StateConfig } from 'ow-angular-us-map';
 const stateConfig: StateConfig = {
   hi: {
     name: "Hawaii",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ak: {
     name: "Alaska",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   fl: {
     name: "Florida",
-    inactive: "no",
-    hide: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nh: {
     name: "New Hampshire",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   vt: {
     name: "Vermont",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   me: {
     name: "Maine",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ri: {
     name: "Rhode Island",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ny: {
     name: "New York",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   pa: {
     name: "Pennsylvania",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nj: {
     name: "New Jersey",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   de: {
     name: "Delaware",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   md: {
     name: "Maryland",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   va: {
     name: "Virginia",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   wv: {
     name: "West Virginia",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   oh: {
     name: "Ohio",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   in: {
     name: "Indiana",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   il: {
     name: "Illinois",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ct: {
     name: "Connecticut",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   wi: {
     name: "Wisconsin",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nc: {
     name: "North Carolina",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   dc: {
     name: "District of Columbia",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ma: {
     name: "Massachusetts",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   tn: {
     name: "Tennessee",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ar: {
     name: "Arkansas",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   mo: {
     name: "Missouri",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   ga: {
     name: "Georgia",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   sc: {
     name: "South Carolina",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ky: {
     name: "Kentucky",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   al: {
     name: "Alabama",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   la: {
     name: "Louisiana",
-    hide: "no",
-    inactive: "no",
-    fill: "#CCFFCC"
+    fill: "#00FA9A"
   },
   ms: {
     name: "Mississippi",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ia: {
     name: "Iowa",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   mn: {
     name: "Minnesota",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ok: {
     name: "Oklahoma",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   tx: {
     name: "Texas",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nm: {
     name: "New Mexico",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ks: {
     name: "Kansas",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ne: {
     name: "Nebraska",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   sd: {
     name: "South Dakota",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nd: {
     name: "North Dakota",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   wy: {
     name: "Wyoming",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   mt: {
     name: "Montana",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   co: {
     name: "Colorado",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ut: {
     name: "Utah",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   az: {
     name: "Arizona",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   nv: {
     name: "Nevada",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   or: {
     name: "Oregon",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   wa: {
     name: "Washington",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   ca: {
     name: "California",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   mi: {
     name: "Michigan",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   id: {
     name: "Idaho",
-    hide: "no",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   },
   vi: {
     name: "Virgin Islands",
-    hide: "yes",
-    inactive: "no",
-    fill: "grey"
+    fill: "#D9D9D9"
   }
 }
 
