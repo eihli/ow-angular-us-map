@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { StateConfig } from '../lib/state';
 
 @Component({
   selector: 'lib-ow-angular-us-map',
@@ -6,22 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class OwAngularUsMapComponent implements OnInit {
+  @Input() stateConfig: StateConfig;
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.stateConfig)
   }
 
-  handleClick(event) {
-    console.log(event);
-  }
+  handleClick(event) {}
 
-  onMouseEnter(event) {
-    console.log(event);
-  }
+  onMouseEnter(event) {}
 
-  onMouseLeave(event) {
-    console.log(event)
-  }
-
+  onMouseLeave(event) {}
 }
