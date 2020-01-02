@@ -17,7 +17,18 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ow-angular-us-map": [
+        "dist/ow-angular-us-map"
+      ],
+      "ow-angular-us-map/*": [
+        "dist/ow-angular-us-map/*"
+      ],
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
