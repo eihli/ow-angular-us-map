@@ -3,7 +3,7 @@ import { State, StateConfig } from '../lib/state';
 
 
 @Component({
-  selector: 'lib-ow-angular-us-map',
+  selector: 'ow-angular-us-map',
   templateUrl: 'ow-angular-us-map.component.html',
   styles: []
 })
@@ -22,15 +22,19 @@ export class OwAngularUsMapComponent implements OnInit {
     this.stateClicked.emit(state);
   }
 
+  // This is something that could be updated to be customizable. Right now,
+  // I'm just hardcoding a darken by 10% on mouseover.
   onMouseEnter(event) {
     event.target.setAttribute("fill", "#" + this.adjColor(event.target.getAttribute("fill").slice(1), -0.1));
   }
 
   onMouseLeave(event) {
     let stateAbbr = event.target.getAttribute("id").toLowerCase();
-    event.target.setAttribute("fill", this.stateConfig[stateAbbr].fill);
+    event.target.setAttribute("fill", this.stateConfig.states[stateAbbr].fill);
   }
 
+  // Given a CSS hex color, like "6D6D6D", adjust it by the given percentage.
+  // A negative number darkens, a positive number lightens.
   adjColor(color, adjPercentage) {
     let colorInt = parseInt(color, 16);
     let r = colorInt >> 16;

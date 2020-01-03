@@ -6,5 +6,7 @@ export class State {
 }
 
 export interface StateConfig {
-  [key: string]: State;
+  stroke: string;
+  strokeWidth: number;
+  states: {[key: string]: State};
 }
